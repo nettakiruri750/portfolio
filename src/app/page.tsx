@@ -12,8 +12,8 @@ export default function Home() {
       title: "AI Evaluation Dashboard",
       desc: "PhD-level project: AI evaluation dashboard with rubric scoring, dataset management, and research-grade reporting.",
       stack: "Next.js - TypeScript - Python",
-      live: "#",
-      gh: "#",
+      live: "https://ai-eval-psi.vercel.app/",
+      gh: "https://" + GH + "/nettakiruri750/ai-eval",
     },
     {
       title: "MyFit",
