@@ -19,7 +19,7 @@ export default function Home() {
       title: "MyFit",
       desc: "Fitness tracker with workout logging, progress charts, goals, and streaks.",
       stack: "Next.js - TypeScript - Charts",
-      live: "https://vercel.com/kirurinetta-6384/myfit",
+      live: "https://myfit-fawn.vercel.app/",
       gh: "https://" + GH + "/nettakiruri750/myfit",
     },
     {
