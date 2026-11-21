@@ -19,8 +19,8 @@ export default function Home() {
       title: "MyFit",
       desc: "Fitness tracker with workout logging, progress charts, goals, and streaks.",
       stack: "Next.js - TypeScript - Charts",
-      live: "#",
-      gh: "#",
+      live: "https://vercel.com/kirurinetta-6384/myfit",
+      gh: "https://" + GH + "/nettakiruri750/myfit",
     },
     {
       title: "ShopNest",
@@ -58,7 +58,6 @@ export default function Home() {
           <a href={"https://" + GH + "/nettakiruri750"} target="_blank" className="px-5 py-2.5 bg-slate-900 text-white rounded-lg">View on GH</a>
           <a href="mailto:Kirurinetta@gmail.com" className="px-5 py-2.5 bg-white border rounded-lg">Contact Me</a>
         </div>
-
         <h2 className="text-3xl font-bold mt-14 mb-6">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((p) => (
@@ -81,14 +80,12 @@ export default function Home() {
             </div>
           ))}
         </div>
-
         <div className="mt-14 bg-white p-6 rounded-xl border">
           <h2 className="text-2xl font-bold">Education - Texas</h2>
           <p className="mt-3"><b>PhD - Computer Science</b> | University of Texas at Arlington | 2019 - 2023</p>
           <p><b>MS - Computer Science</b> | University of Texas at Dallas | 2016 - 2018</p>
           <p><b>BS - Computer Science</b> | University of Texas at Arlington | 2009 - 2013</p>
         </div>
-
         <p className="text-center text-slate-500 text-sm mt-10">
           Euless, TX | +1 (732) 609-5128 | Kirurinetta@gmail.com | linkedin.com/in/netta-kiruri-b0458b402
         </p>
