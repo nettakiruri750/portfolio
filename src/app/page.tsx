@@ -25,7 +25,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* PROJECTS - SAME LAYOUT AS YOUR SCREENSHOT */}
+      {/* PROJECTS - SAME LAYOUT */}
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "40px 20px" }}>
         <h2 style={{ fontSize: 34, margin: "0 0 24px" }}>Projects</h2>
 
@@ -64,18 +64,18 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* 4. ShopNest */}
+          {/* 4. ShopNest — NOW LIVE */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>ShopNest</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Full e-commerce experience: catalog, search, cart, checkout, and order summary.</p>
             <p style={{ color: "#2563EB", margin: "0 0 20px" }}>Next.js - TypeScript - Tailwind CSS</p>
             <div style={{ display: "flex", gap: 12 }}>
+              <a href="https://shopnest-delta-green.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
               <a href="https://github.com/nettakiruri750/shopnest" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
-              <span style={{ color: "#64748B", fontSize: 14, alignSelf: "center" }}>Live Demo — Coming Soon</span>
             </div>
           </div>
 
-          {/* 5. InsightDash — NEW, SAME LAYOUT */}
+          {/* 5. InsightDash */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>InsightDash</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Analytics dashboard with KPIs, charts, filters, and dark mode. Shows revenue, users, conversion, and engagement.</p>
