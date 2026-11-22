@@ -13,9 +13,9 @@ export default function Portfolio() {
 
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "20px 20px 10px" }}>
         <h1 style={{ fontSize: 38, margin: "0 0 10px" }}>Netta Wangui Kiruri</h1>
-        <p style={{ fontSize: 18, fontWeight: 700, color: "#2563EB", margin: 0 }}>Senior Front-End Developer & UI/UX Designer</p>
+        <p style={{ fontSize: 18, fontWeight: 700, color: "#2563EB", margin: 0 }}>Software Engineer — Python, TypeScript, AI Evaluation & Systems</p>
         <p style={{ color: "#475569", maxWidth: 800, lineHeight: 1.6, fontSize: 16 }}>
-          I build clean, accessible, high-performance web applications in React, Next.js, and TypeScript. Doctoral foundation in Computer Science from Texas. Based in Euless, TX.
+          I build clean, scalable, maintainable systems in Python and TypeScript. Doctoral foundation in Computer Science from Texas. Expert in debugging complex systems, large codebase refactoring, and legacy modernization. Based in Euless, TX.
         </p>
         <div style={{ display: "flex", gap: 10, marginTop: 20 }}>
           <a href="https://github.com/nettakiruri750" target="_blank" style={{ background: "#0F172A", color: "white", padding: "12px 20px", borderRadius: 10, fontWeight: 700, textDecoration: "none" }}>View on GH</a>
@@ -28,12 +28,12 @@ export default function Portfolio() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
 
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
-            <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>DesignSystemX</h3>
-            <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Production-grade React + TypeScript design system with 12+ reusable, accessible components, dark mode, and documentation.</p>
-            <p style={{ color: "#2563EB", margin: "0 0 20px" }}>React - TypeScript - Tailwind CSS</p>
+            <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>LegacyLens</h3>
+            <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Large codebase refactoring analyzer: paste legacy code, detect legacy patterns, get modern replacements, before/after, impact score, and migration plan.</p>
+            <p style={{ color: "#2563EB", margin: "0 0 20px" }}>Python - TypeScript - Next.js</p>
             <div style={{ display: "flex", gap: 12 }}>
-              <a href="https://designsystemx-ten.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
-              <a href="https://github.com/nettakiruri750/designsystemx" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
+              <a href="https://legacy-lens-zeta.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
+              <a href="https://github.com/nettakiruri750/legacylens" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
             </div>
           </div>
 
@@ -44,6 +44,16 @@ export default function Portfolio() {
             <div style={{ display: "flex", gap: 12 }}>
               <a href="https://ai-eval-psi.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
               <a href="https://github.com/nettakiruri750/ai-eval" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
+            </div>
+          </div>
+
+          <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
+            <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>DesignSystemX</h3>
+            <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Production-grade React + TypeScript design system with 12+ reusable, accessible components, dark mode, and documentation.</p>
+            <p style={{ color: "#2563EB", margin: "0 0 20px" }}>React - TypeScript - Tailwind CSS</p>
+            <div style={{ display: "flex", gap: 12 }}>
+              <a href="https://designsystemx-ten.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
+              <a href="https://github.com/nettakiruri750/designsystemx" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
             </div>
           </div>
 
@@ -84,6 +94,16 @@ export default function Portfolio() {
             <div style={{ display: "flex", gap: 12 }}>
               <a href="https://a11yaudit-theta.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
               <a href="https://github.com/nettakiruri750/a11yaudit" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
+            </div>
+          </div>
+
+          <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
+            <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>Portfolio</h3>
+            <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>This portfolio — showcasing all 8 projects with Live Demo + GitHub links, responsive design, and dark mode.</p>
+            <p style={{ color: "#2563EB", margin: "0 0 20px" }}>Next.js - TypeScript - Tailwind CSS</p>
+            <div style={{ display: "flex", gap: 12 }}>
+              <a href="https://portfolio-orpin-phi-9iz8ygptaq.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
+              <a href="https://github.com/nettakiruri750/portfolio" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
             </div>
           </div>
 
