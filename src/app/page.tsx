@@ -13,9 +13,9 @@ export default function Portfolio() {
 
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "20px 20px 10px" }}>
         <h1 style={{ fontSize: 38, margin: "0 0 10px" }}>Netta Wangui Kiruri</h1>
-        <p style={{ fontSize: 18, fontWeight: 700, color: "#2563EB", margin: 0 }}>Software Engineer — Python, TypeScript, AI Evaluation & Systems</p>
+        <p style={{ fontSize: 18, fontWeight: 700, color: "#2563EB", margin: 0 }}>Software Engineer — Python, TypeScript, AI Evaluation, Systems & CAD</p>
         <p style={{ color: "#475569", maxWidth: 800, lineHeight: 1.6, fontSize: 16 }}>
-          I build clean, scalable, maintainable systems in Python and TypeScript. Doctoral foundation in Computer Science from Texas. Expert in debugging complex systems, large codebase refactoring, and legacy modernization. Based in Euless, TX.
+          I build clean, scalable, maintainable systems in Python and TypeScript. Doctoral foundation in Computer Science from Texas. Expert in debugging complex systems, large codebase refactoring, legacy modernization, and CAD visualization. Based in Euless, TX.
         </p>
         <div style={{ display: "flex", gap: 10, marginTop: 20 }}>
           <a href="https://github.com/nettakiruri750" target="_blank" style={{ background: "#0F172A", color: "white", padding: "12px 20px", borderRadius: 10, fontWeight: 700, textDecoration: "none" }}>View on GH</a>
@@ -26,6 +26,16 @@ export default function Portfolio() {
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "40px 20px" }}>
         <h2 style={{ fontSize: 34, margin: "0 0 24px" }}>Projects</h2>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
+
+          <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
+            <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>CADViewer</h3>
+            <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Web CAD viewer: layers, measurements, dimensions, zoom, grid. Click any object to see type, layer, size, area, and perimeter.</p>
+            <p style={{ color: "#2563EB", margin: "0 0 20px" }}>TypeScript - Next.js - Canvas - CAD</p>
+            <div style={{ display: "flex", gap: 12 }}>
+              <a href="https://cadviewer-wheat.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
+              <a href="https://github.com/nettakiruri750/cadviewer" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
+            </div>
+          </div>
 
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>LegacyLens</h3>
@@ -99,7 +109,7 @@ export default function Portfolio() {
 
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>Portfolio</h3>
-            <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>This portfolio — showcasing all 8 projects with Live Demo + GitHub links, responsive design, and dark mode.</p>
+            <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>This portfolio — showcasing all 9 projects with Live Demo + GitHub links, responsive design, and dark mode.</p>
             <p style={{ color: "#2563EB", margin: "0 0 20px" }}>Next.js - TypeScript - Tailwind CSS</p>
             <div style={{ display: "flex", gap: 12 }}>
               <a href="https://portfolio-orpin-phi-9iz8ygptaq.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
