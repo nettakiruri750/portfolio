@@ -3,7 +3,6 @@
 export default function Portfolio() {
   return (
     <div style={{ minHeight: "100vh", background: "white", fontFamily: "system-ui, sans-serif", color: "#0F172A" }}>
-      {/* HEADER - keep as is */}
       <header style={{ maxWidth: 1100, margin: "0 auto", padding: "20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <b style={{ fontSize: 20 }}>Netta Kiruri</b>
         <div style={{ display: "flex", gap: 10 }}>
@@ -12,7 +11,6 @@ export default function Portfolio() {
         </div>
       </header>
 
-      {/* HERO - keep as is */}
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "20px 20px 10px" }}>
         <h1 style={{ fontSize: 38, margin: "0 0 10px" }}>Netta Wangui Kiruri</h1>
         <p style={{ fontSize: 18, fontWeight: 700, color: "#2563EB", margin: 0 }}>Senior Front-End Developer & UI/UX Designer</p>
@@ -25,13 +23,10 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* PROJECTS - SAME LAYOUT */}
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "40px 20px" }}>
         <h2 style={{ fontSize: 34, margin: "0 0 24px" }}>Projects</h2>
-
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
 
-          {/* 1. DesignSystemX */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>DesignSystemX</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Production-grade React + TypeScript design system with 12+ reusable, accessible components, dark mode, and documentation.</p>
@@ -42,7 +37,6 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* 2. AI Evaluation Dashboard */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>AI Evaluation Dashboard</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>PhD-level project: AI evaluation dashboard with rubric scoring, dataset management, and research-grade reporting.</p>
@@ -53,7 +47,6 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* 3. MyFit */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>MyFit</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Fitness tracker with workout logging, progress charts, goals, and streaks.</p>
@@ -64,7 +57,6 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* 4. ShopNest — NOW LIVE */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>ShopNest</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Full e-commerce experience: catalog, search, cart, checkout, and order summary.</p>
@@ -75,7 +67,6 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* 5. InsightDash */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>InsightDash</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Analytics dashboard with KPIs, charts, filters, and dark mode. Shows revenue, users, conversion, and engagement.</p>
@@ -86,19 +77,17 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* 6. A11yAudit */}
           <div style={{ border: "1px solid #0F172A", borderRadius: 16, padding: 28 }}>
             <h3 style={{ fontSize: 24, margin: "0 0 12px" }}>A11yAudit</h3>
             <p style={{ color: "#475569", lineHeight: 1.6, margin: "0 0 16px" }}>Accessibility auditing tool: paste HTML, get WCAG issues, severity, and fix suggestions — with scores and reports.</p>
             <p style={{ color: "#2563EB", margin: "0 0 20px" }}>Next.js - TypeScript - WCAG</p>
             <div style={{ display: "flex", gap: 12 }}>
+              <a href="https://a11yaudit-theta.vercel.app/" target="_blank" style={{ background: "#2563EB", color: "white", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>Live Demo</a>
               <a href="https://github.com/nettakiruri750/a11yaudit" target="_blank" style={{ border: "1px solid #0F172A", padding: "10px 18px", borderRadius: 10, fontWeight: 600, textDecoration: "none", color: "#0F172A" }}>View on GH</a>
-              <span style={{ color: "#64748B", fontSize: 14, alignSelf: "center" }}>Live Demo — Coming Soon</span>
             </div>
           </div>
 
         </div>
-
         <p style={{ textAlign: "center", color: "#64748B", fontSize: 13, marginTop: 40 }}>© 2026 Netta Kiruri • Euless, TX • Built with Next.js, TypeScript & Tailwind</p>
       </div>
     </div>
